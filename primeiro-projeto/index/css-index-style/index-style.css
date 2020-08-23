@@ -3,8 +3,20 @@
     padding: 0;
 }
 
+:root {
+    --main-background-color: #eee;
+    --second-background-color: #ddd;
+    --third-background-color: #fff;
+    --main-text-color: #222;
+    --second-text-color: #555;
+    --div-color-1: #77a7ff;
+    --div-color-2: #cdff60;
+    --div-color-3: #92e0ac;
+    --button-color: rgb(213, 221, 142);
+}
+
 #container {
-    height: 100%;
+    height: 100vh;
     margin: 0 auto;
     max-width: 970px;
     background: #eee;
