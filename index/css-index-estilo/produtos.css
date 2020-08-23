@@ -19,4 +19,27 @@
 
 #produtos .produtos-navegacao-categorias {
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#produtos .produtos-navegacao-categorias div {
+    margin: 10px;
+    background: var(--image-background-color);
+}
+
+#produtos .produtos-navegacao-categorias div:nth-child(1) {
+    height: 70%;
+    flex: 1;
+}
+
+#produtos .produtos-navegacao-categorias div:nth-child(2) {
+    height: 70%;
+    flex: 1;
+}
+
+#produtos .produtos-navegacao-categorias div:nth-child(3) {
+    height: 70%;
+    flex: 1;
 }
