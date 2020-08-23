@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 970px;
+    background: #eee;
+}
+
+#container .logo-menu {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    background: #eee;
+}
+
+#container .logo {
+    height: 60px;
+    width: 30%;
+}
+
+#container nav {
+    height: 60px;
+    width: 70%;
+}
+
+#container .logo-menu nav ul {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+#container .logo-menu nav ul li {
+    list-style-type: none;
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 60px;
+    background: #ddd;
+}
+
+#container .logo-menu nav ul li:hover {
+    color: royalblue;
+    background: #fff;
+    cursor: pointer;
+}
