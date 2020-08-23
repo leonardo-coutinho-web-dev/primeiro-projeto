@@ -1,0 +1,51 @@
+#servicos {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#servicos div:nth-child(1) {
+    height: 100%;
+    flex: 1;
+    background: var(--image-background-color);
+}
+
+#servicos div:nth-child(2) {
+    height: 100%;
+    flex: 4;
+    background: var(--second-background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#servicos div:nth-child(3) {
+    height: 100%;
+    flex: 1;
+    background: var(--image-background-color);
+}
+
+#servicos div:nth-child(4) {
+    height: 100%;
+    flex: 4;
+    background: var(--second-background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#servicos h2 {
+    width: 100%;
+    font-family: var(--main-font-family);
+    font-size: var(--second-font-size);
+}
+
+#servicos p {
+    margin: 0;
+    padding: 0 20px;
+    font-family: var(--second-font-family);
+    font-size: var(--main-font-size);
+}

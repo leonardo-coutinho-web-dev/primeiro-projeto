@@ -2,6 +2,7 @@
     --main-background-color: #eee;
     --second-background-color: #ddd;
     --third-background-color: #fff;
+    --image-background-color: #cecece;
     --main-text-color: #222;
     --second-text-color: #555;
     --div-color-1: #77a7ff;
@@ -10,4 +11,6 @@
     --button-color: #d5dd8e;
     --main-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --second-font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --main-font-size: 14px;
+    --second-font-size: 28px;
 }

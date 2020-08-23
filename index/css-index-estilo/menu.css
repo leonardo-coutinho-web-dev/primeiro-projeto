@@ -1,15 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-#container {
-    height: 100vh;
-    margin: 0 auto;
-    max-width: 970px;
-    background: var(--main-background-color);
-}
-
 #container .logo-menu {
     display: flex;
     flex-direction: row;
@@ -47,13 +35,6 @@
 }
 
 #container .logo-menu nav ul li:hover {
-    color: #d5dd8e;
-    background: var(--third-background-color);
     cursor: pointer;
-}
-
-#div-carrossel {
-    height: 30vh;
-    width: 100%;
-    background: var(--second-background-color);
+    background: var(--main-background-color);
 }
