@@ -13,7 +13,7 @@
 #container nav {
     height: 60px;
     background: var(--second-background-color);
-    /* margin-right: 0px; */
+    margin-right: 0px;
 }
 
 #container .logo-menu nav ul {
