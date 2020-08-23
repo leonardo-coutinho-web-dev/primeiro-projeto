@@ -3,23 +3,11 @@
     padding: 0;
 }
 
-:root {
-    --main-background-color: #eee;
-    --second-background-color: #ddd;
-    --third-background-color: #fff;
-    --main-text-color: #222;
-    --second-text-color: #555;
-    --div-color-1: #77a7ff;
-    --div-color-2: #cdff60;
-    --div-color-3: #92e0ac;
-    --button-color: #d5dd8e;
-}
-
 #container {
     height: 100vh;
     margin: 0 auto;
     max-width: 970px;
-    background: #eee;
+    background: var(--main-background-color);
 }
 
 #container .logo-menu {
@@ -27,7 +15,7 @@
     flex-direction: row;
     height: 60px;
     width: 100%;
-    background: #eee;
+    background: var(--main-background-color);
 }
 
 #container .logo {
@@ -52,14 +40,20 @@
     height: 100%;
     width: 25%;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--main-font-family);
     font-size: 18px;
     line-height: 60px;
-    background: #ddd;
+    background: var(--second-background-color);
 }
 
 #container .logo-menu nav ul li:hover {
-    color: royalblue;
-    background: #fff;
+    color: #d5dd8e;
+    background: var(--third-background-color);
     cursor: pointer;
+}
+
+#div-carrossel {
+    height: 30vh;
+    width: 100%;
+    background: var(--second-background-color);
 }
