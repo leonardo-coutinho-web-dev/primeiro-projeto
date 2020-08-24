@@ -1,0 +1,14 @@
+#copyright {
+    height: 5vh;
+    text-align: center;
+    font-family: var(--second-font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright p {
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}

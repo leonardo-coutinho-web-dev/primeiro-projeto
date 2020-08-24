@@ -6,6 +6,10 @@
     background: var(--main-background-color);
 }
 
+#container .logo-menu div:nth-child(1) {
+    margin-left: 0;
+}
+
 #container .logo {
     height: 60px;
 }
@@ -26,7 +30,7 @@
 #container .logo-menu nav ul li {
     list-style-type: none;
     height: 100%;
-    width: 25%;
+    flex: 1;
     text-align: center;
     font-family: var(--main-font-family);
     font-size: 18px;

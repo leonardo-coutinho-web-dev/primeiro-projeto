@@ -1,5 +1,6 @@
 #servicos {
-    height: 30vh;
+    height: 40vh;
+    padding: 40px 0;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -9,16 +10,17 @@
 
 #servicos div:nth-child(1) {
     height: 20%;
+    margin-left: 0;
     background: var(--image-background-color);
 }
 
 #servicos div:nth-child(2) {
     height: 100%;
-    background: var(--second-background-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    background: var(--second-background-color);
 }
 
 #servicos div:nth-child(3) {
@@ -28,7 +30,7 @@
 
 #servicos div:nth-child(4) {
     height: 100%;
-    background: var(--second-background-color);
+    margin-right: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

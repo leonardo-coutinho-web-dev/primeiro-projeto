@@ -1,0 +1,60 @@
+#ofertas {
+    height: 120vh;
+    background: var(--second-background-color);
+}
+
+#ofertas .grid-16 {
+    margin: 0;
+}
+
+#ofertas .grid-14 {
+    margin: 0 auto;
+    height: 100%;
+}
+
+#ofertas .grid-16 .grid-14 .grid-4 {
+    height: 80%;
+}
+
+#ofertas div:nth-child(1),
+#ofertas div:nth-child(2) {
+    height: 50%;
+}
+
+#ofertas div:nth-child(1) .grid-14,
+#ofertas div:nth-child(2) .grid-14 {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*vertical*/
+}
+
+#ofertas div:nth-child(2) div:nth-child(1) div:nth-child(3) {
+    margin-right: 0;
+    background: var(--main-background-color);
+}
+
+#ofertas div:nth-child(2) div:nth-child(1) div:nth-child(2) {
+    background: var(--main-background-color);
+}
+
+#ofertas div:nth-child(2) div:nth-child(1) div:nth-child(1) {
+    margin-left: 0;
+    background: var(--main-background-color);
+}
+
+#ofertas div:nth-child(1) div:nth-child(1) div:nth-child(1) {
+    margin-left: 0;
+    background: var(--main-background-color);
+}
+
+#ofertas div:nth-child(1) div:nth-child(1) div:nth-child(2) {
+    background: var(--main-background-color);
+}
+
+#ofertas div:nth-child(1) div:nth-child(1) div:nth-child(3) {
+    margin-right: 0;
+    background: var(--main-background-color);
+}

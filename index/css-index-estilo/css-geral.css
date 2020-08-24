@@ -4,8 +4,8 @@
 }
 
 #container {
-    height: 100vh;
+    height: 300vh;
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 940px;
     background: var(--main-background-color);
 }
